@@ -1,0 +1,245 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(51, 53, 56);
+  font-family: Montserrat;
+  width: 100%;
+  position: fixed;
+}
+
+.header-img {
+  width: 8%;
+  margin-left: 200px;
+}
+
+.nav-bar {
+  display: flex;
+  padding: 16px 200px 16px 0px;
+  gap: 64px;
+}
+
+.nav-link {
+  font-size: 14px;
+  font-weight: bold;
+  color: #e4e4e7;
+}
+
+
+.products-section {
+  background-color: #e4e4e7;
+  display: flex;
+  flex-direction: column;
+  border-bottom: 0.4px solid #1a1b1d49;
+  align-items: center;
+}
+
+.products-section-title {
+  padding-top: 6%;
+  text-align: center;
+  color: #1a1b1d;
+  font-family: Montserrat;
+  font-size: 48px;
+}
+
+.product {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 1px 1px 1px 1px #1a1b1d49;
+  margin: 48px 200px;
+}
+
+.product-section-text {
+  display: flex;
+  flex-direction: column;
+}
+
+.product-section-text h2 {
+  font-family: Montserrat;
+  font-weight: bold;
+  font-size: 32px;
+  color: #1a1b1d;
+}
+
+.product-section-text p {
+  font-family: Montserrat;
+  font-weight: lighter;
+  font-size: 18px;
+  color: #1a1b1d;
+  padding-top: 12px;
+}
+
+.products-img {
+  width: 60%;
+  margin: 0 auto;
+}
+
+
+.about-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  background-color: #e4e4e7;
+  border-bottom: 0.4px solid #1a1b1d49;
+}
+
+.about-section h2 {
+  margin-top: 42px;
+  color: #1a1b1d;
+  font-family: Montserrat;
+  font-weight: bold;
+  font-size: 48px;
+}
+
+.video {
+  margin: 48px;
+  width: 70%;
+}
+
+.receive-news {
+  display: flex;
+  flex-direction: column;
+  background-color: #e4e4e7;
+}
+
+.receive-news h2 {
+  margin-top: 32px;
+  margin-bottom: -14px;
+  text-align: center;
+  color: #1a1b1d;
+  font-family: Montserrat;
+  font-size: 48px;
+}
+
+.form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #1a1b1d;
+  width: 100%;
+  margin-bottom: 42px;
+}
+
+.email {
+  outline: none;
+  padding: 8px;
+  width: 15%;
+}
+
+.btn {
+  border: 0;
+  outline: none;
+  cursor: pointer;
+  padding: 8px;
+  background-color: #1a1b1d;
+  font-family: Montserrat;
+  font-size: 16px;
+  color: #e4e4e7;  
+  width: 7%;
+}
+
+.footer-section {
+    background-color: #1a1b1d;
+    text-align: center;
+    font-family: Montserrat;
+    color: #e4e4e7; 
+    font-size: 12px;
+}
+
+
+@media (max-width: 768px) {
+
+    .header {
+      justify-content: space-around;
+    }
+    
+    .nav-bar {
+        display: flex;
+        padding: 12px;
+        gap: 12px;
+    }
+
+    .nav-link {
+        font-size: 16px;
+    }
+
+    .header-img {
+        width: 25%;
+        margin: 0;
+    }
+
+    
+    .products-section {
+        justify-content: center;
+    }
+
+    .products-section-title {
+        padding-top: 24%;
+        text-align: center;
+        color: #1a1b1d;
+        font-family: Montserrat;
+        font-size: 48px;
+    }
+
+    .product-section-text h2 {
+        text-align: center;
+    }
+
+    .product-section-text {
+        padding-top: 4%;
+        text-align: justify;
+    }
+
+    .product {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 80%;
+        margin: 44px auto;
+    }
+
+    .products-img {
+        width: 100%;
+    }
+
+    .about-section h2 {
+        text-align: center;
+    }
+
+    .video {
+        width: 80%;
+        box-shadow: 2px 2px 2px 2px #1a1b1d49;
+    }
+
+    .form {
+        width: 100%;
+    }
+
+    .email {
+        width: 50%;
+    }
+
+    .btn {
+        width:30%;
+    }
+
+}
+
