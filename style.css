@@ -207,6 +207,11 @@ html {
         text-align: justify;
     }
 
+    .product-section-text p {
+        margin: 0px 24px;
+        text-align: justify;
+    }
+
     .product {
         display: flex;
         flex-direction: column;
